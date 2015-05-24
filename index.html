@@ -3,20 +3,46 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Jakarta-cute-dropdown by JawaJava</title>
+    <title>Jakarta Cute Dropdown by JawaJava</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+   
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <!--[if lt IE 8]>
+  		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+  		<link href="../dist/css/jktCuteDropdown_lt_8.css" rel="stylesheet" type="text/css" />
+  	<![endif]-->
+  	
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  	<script type="text/javascript" src="../dist/js/jktCuteDropdown.js"></script>
+  	<link href="../dist/css/jktCuteDropdown.css" rel="stylesheet" type="text/css" />
+  	<link href="../dist/css/style_by_you_need.css" rel="stylesheet" type="text/css" />
+    <link href="docs.css" rel="stylesheet" type="text/css" />
+  	<script>
+  		$(document).ready(function(){
+  			$('.jktCD-one').jktCD();
+  			
+  			$('.jktCD-two').jktCD({typeCursor:'click'});
+  			$('.jktCD-three').jktCD({typeCursor:'hover'});
+  			$('.jktCD-four').jktCD({typeCursor:'both'});
+  			
+  			$('.jktCD-five').jktCD({triLeft:50});
+  			$('.jktCD-six').jktCD({triActive:false});
+  			
+  			$('.jktCD-seven').jktCD({mainLeft:50});
+  		});
+  	</script>
   </head>
   <body>
     <div class="wrapper">
       <header>
         <h1>Jakarta-cute-dropdown</h1>
-        <p>Simple, Easy and Small Dropdown Jquery Plugin</p>
+        <p>Simple, Easy and Small</p>
 
         <p class="view"><a href="https://github.com/JawaJava/Jakarta-Cute-Dropdown">View the Project on GitHub <small>JawaJava/Jakarta-Cute-Dropdown</small></a></p>
 
@@ -46,6 +72,199 @@
 
 <h3>
 <a id="example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h3>
+<!-- model one -->
+			<div class="div">
+				<div class="example">
+					<div class="little-title">Result</div>
+					<ul class="vertical">
+						<li class="jktCD-one jktCD">
+							<span class="jktCD-click">Standart</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="jktCD-one jktCD">
+							<span class="jktCD-click">Standart_2</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code">
+					<div class="little-title">Code</div>
+					
+					<div class="c">$('.jktCD-one').jktCD();</div>
+				</div>
+			</div>
+
+			<!-- model two -->
+			<div class="div">
+				<div class="example">
+					<div class="little-title">Result</div>
+					<ul class="vertical">
+						<li class="jktCD-two jktCD">
+							<span class="jktCD-click">Click</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code">
+					<div class="little-title">Code</div>
+					
+					<div class="c">$('.jktCD-two').jktCD({typeCursor:'click'});</div>
+				</div>
+			</div>
+
+			<!-- model three -->
+			<div class="div">
+				<div class="example">
+					<div class="little-title">Result</div>
+					<ul class="vertical">
+						<li class="jktCD-three jktCD">
+							<span class="jktCD-click">Hover</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code">
+					<div class="little-title">Code</div>
+					
+					<div class="c">$('.jktCD-three').jktCD({typeCursor:'hover'});</div>
+				</div>
+			</div>
+
+			<!-- model four -->
+			<div class="div">
+				<div class="example">
+					<div class="little-title">Result</div>
+					<ul class="vertical">
+						<li class="jktCD-four jktCD">
+							<span class="jktCD-click">Both</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code">
+					<div class="little-title">Code</div>
+					
+					<div class="c">$('.jktCD-four').jktCD({typeCursor:'both'});</div>
+				</div>
+			</div>
+
+			<!-- model five -->
+			<div class="div">
+				<div class="example">
+					<div class="little-title">Result</div>
+					<ul class="vertical">
+						<li class="jktCD-five jktCD">
+							<span class="jktCD-click">TriAngle_50px</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code">
+					<div class="little-title">Code</div>
+					
+					<div class="c">$('.jktCD-five').jktCD({triLeft:50});</div>
+				</div>
+			</div>
+
+			<!-- model six -->
+			<div class="div">
+				<div class="example">
+					<div class="little-title">Result</div>
+					<ul class="vertical">
+						<li class="jktCD-six jktCD">
+							<span class="jktCD-click">TriAngle_Hide</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code">
+					<div class="little-title">Code</div>
+					
+					<div class="c">$('.jktCD-six').jktCD({triActive:false});</div>
+				</div>
+			</div>
+
+			<!-- model seven -->
+			<div class="div">
+				<div class="example">
+					<div class="little-title">Result</div>
+					<ul class="vertical">
+						<li class="jktCD-seven jktCD">
+							<span class="jktCD-click">Main_box_50px</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code">
+					<div class="little-title">Code</div>
+					
+					<div class="c">$('.jktCD-seven').jktCD({mainLeft:50});</div>
+				</div>
+			</div>
 
 <h3>
 <a id="options" class="anchor" href="#options" aria-hidden="true"><span class="octicon octicon-link"></span></a>Options</h3>
