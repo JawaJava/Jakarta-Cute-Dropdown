@@ -13,5 +13,8 @@ Something you need dropdown every where place in yours page like options menu in
 * ie8.js for compatible ie 7, 8
 
 # How to Usage  
+just like other library or read this [click](http://jawajava.github.io/Jakarta-Cute-Dropdown/)
 
+# What is license?
+[MIT license](https://github.com/JawaJava/Jakarta-Cute-Dropdown/blob/master/LICENSE)
 
