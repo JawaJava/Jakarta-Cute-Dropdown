@@ -1,0 +1,14 @@
+/* style your Own*/
+.jktCD-style-one{
+	top:35px;
+	left:0;
+	border:1px solid #DDD;
+}
+.jktCD-style-one .item{
+	padding:5px;
+	width:100px;
+}
+.jktCD-style-one:after{
+	left:20%;
+	top:-10px;
+}

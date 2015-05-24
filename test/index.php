@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Menu Drodown</title>
+	<!--[if lt IE 8]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+		<link href="../dist/css/jktCuteDropdown_lt_8.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	
+	<script type="text/javascript" src="../dist/js/jktCuteDropdown.js"></script>
+	<link href="../dist/css/jktCuteDropdown.css" rel="stylesheet" type="text/css" />
+	<link href="../dist/css/style_by_you_need.css" rel="stylesheet" type="text/css" />
+	
+	<link href="docs.css" rel="stylesheet" type="text/css" />
+	<script>
+		$(document).ready(function(){
+			$('.jktCD-one').jktCD();
+			
+			$('.jktCD-two').jktCD({typeCursor:'click'});
+			$('.jktCD-three').jktCD({typeCursor:'hover'});
+			$('.jktCD-four').jktCD({typeCursor:'both'});
+			
+			$('.jktCD-five').jktCD({triLeft:50});
+			$('.jktCD-six').jktCD({triActive:false});
+			
+			$('.jktCD-seven').jktCD({mainLeft:50});
+		});
+	</script>
+	</head>
+	<body>
+	<div class="wrap-jkt">
+		
+		<div class="header-jkt">
+			<div class="main-title-jkt">Jakarta Cute Dropdown</div>
+			<div>Simple, Easy and Small</div>
+		</div>
+		<div class="short-description-jkt">
+			Something you need dropdown every where place in yours page 
+			like options menu in element status or menu dropdown what you 
+			want you need with easy setting and you know this plugin i 
+			write this for purpose to user experience you can make with 
+			you style own that the box dropdown in style_by_you_need.css 
+			file and change the partMain option too. Enjoy....
+		</div>
+
+		<div class="div-part-jkt">
+		<div class="title-part-jkt">Support Browser</div>
+		<div class="element-part-jkt">
+			<ul>
+				<li>Internet Explorer 7+</li>
+				<li>Firefox 4+</li>
+				<li>Safari 3.1+</li>
+				<li>Google Chrome 4+</li>
+				<li>Opera 12+</li>
+			</ul>			
+		</div>
+
+		<div class="title-part-jkt">How to Usage <a href="http://jawajava.github.io/Jakarta-Cute-Dropdown/">Click Me</a></div>
+		
+		<div class="div-part-jkt">
+		<div class="title-part-jkt">Requirement</div>
+		<div class="element-part-jkt">
+			<ul>
+				<li>jQuery 1.11.2 lib</li>
+				<li>ie8.js for compatible ie 7, 8</li>
+			</ul>			
+		</div>
+
+		<div class="title-part-jkt">Example</div>
+		<div class="element-part-jkt">
+			<!-- model one -->
+			<div class="div-part-jkt">
+				<div class="example-jkt">
+					<div class="small-title-part">Result</div>
+					<ul class="vertical-list-jkt">
+						<li class="jktCD-one jktCD">
+							<span class="jktCD-click">Standart</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="jktCD-one jktCD">
+							<span class="jktCD-click">Standart_2</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code-jkt">
+					<div class="small-title-part">Code</div>
+					
+					<div class="c">$('.jktCD-one').jktCD();</div>
+				</div>
+			</div>
+
+			<!-- model two -->
+			<div class="div-part-jkt">
+				<div class="example-jkt">
+					<div class="small-title-part">Result</div>
+					<ul class="vertical-list-jkt">
+						<li class="jktCD-two jktCD">
+							<span class="jktCD-click">Click</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code-jkt">
+					<div class="small-title-part">Code</div>
+					
+					<div class="c">$('.jktCD-two').jktCD({typeCursor:'click'});</div>
+				</div>
+			</div>
+
+			<!-- model three -->
+			<div class="div-part-jkt">
+				<div class="example-jkt">
+					<div class="small-title-part">Result</div>
+					<ul class="vertical-list-jkt">
+						<li class="jktCD-three jktCD">
+							<span class="jktCD-click">Hover</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code-jkt">
+					<div class="small-title-part">Code</div>
+					
+					<div class="c">$('.jktCD-three').jktCD({typeCursor:'hover'});</div>
+				</div>
+			</div>
+
+			<!-- model four -->
+			<div class="div-part-jkt">
+				<div class="example-jkt">
+					<div class="small-title-part">Result</div>
+					<ul class="vertical-list-jkt">
+						<li class="jktCD-four jktCD">
+							<span class="jktCD-click">Both</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code-jkt">
+					<div class="small-title-part">Code</div>
+					
+					<div class="c">$('.jktCD-four').jktCD({typeCursor:'both'});</div>
+				</div>
+			</div>
+
+			<!-- model five -->
+			<div class="div-part-jkt">
+				<div class="example-jkt">
+					<div class="small-title-part">Result</div>
+					<ul class="vertical-list-jkt">
+						<li class="jktCD-five jktCD">
+							<span class="jktCD-click">TriAngle_50px</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code-jkt">
+					<div class="small-title-part">Code</div>
+					
+					<div class="c">$('.jktCD-five').jktCD({triLeft:50});</div>
+				</div>
+			</div>
+
+			<!-- model six -->
+			<div class="div-part-jkt">
+				<div class="example-jkt">
+					<div class="small-title-part">Result</div>
+					<ul class="vertical-list-jkt">
+						<li class="jktCD-six jktCD">
+							<span class="jktCD-click">TriAngle_Hide</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code-jkt">
+					<div class="small-title-part">Code</div>
+					
+					<div class="c">$('.jktCD-six').jktCD({triActive:false});</div>
+				</div>
+			</div>
+
+			<!-- model seven -->
+			<div class="div-part-jkt">
+				<div class="example-jkt">
+					<div class="small-title-part">Result</div>
+					<ul class="vertical-list-jkt">
+						<li class="jktCD-seven jktCD">
+							<span class="jktCD-click">Main_box_50px</span>
+							<div class="jktCD-main jktCD-style-one">
+								<ul>
+									<li class="item"><a href="">My Home</a></li>
+									<li class="item"><a href="">My Menu</a></li>
+									<li class="item"><a href="">My Activity</a></li>
+									<li class="pemisah"></li>
+									<li class="item"><a href="">log Out</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="code-jkt">
+					<div class="small-title-part">Code</div>
+					
+					<div class="c">$('.jktCD-seven').jktCD({mainLeft:50});</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="title-part-jkt">Setting Reference</div>
+		<div class="element-part-jkt">
+			<table class="own-tt">
+				<TR>
+					<TH>Setting</TH>
+					<TH>Parameter</TH>
+					<TH>Desciption</TH>
+				</TR>
+				<tr>
+					<TD>cssName</TD>
+					<TD>jktCD*</TD>
+					<TD>it's for global name in every element in plugin</TD>
+				</tr>
+				<tr>
+					<TD>partClick</TD>
+					<TD>.jktCD-click*</TD>
+					<TD>class name for click menu display</TD>
+				</tr>
+				<tr>
+					<TD>partMain</TD>
+					<TD>.jktCD-style-one*</TD>
+					<TD>class name if you change the name of box style your own.</TD>
+				</tr>
+				<tr>
+					<TD>mainLeft</TD>
+					<TD>number</TD>
+					<TD>to set the distance around the main-box</TD>
+				</tr>
+				<tr>
+					<TD>typeCursor</TD>
+					<TD>click | hover* | both</TD>
+					<TD>type of click mode in three model just choose you need</TD>
+				</tr>
+				<tr>
+					<TD>triActive</TD>
+					<TD>true* | false</TD>
+					<TD>to hide triangle element</TD>
+				</tr>
+				<tr>
+					<TD>triLeft</TD>
+					<TD>number</TD>
+					<TD>to adjust the spacing element triangle</TD>
+				</tr>
+			</table>
+			<div class="note-jkt" style="padding:10px 0; overflow:hidden;">
+				Note :
+				<ul>
+					<li>* is default</li>
+					<li>main-box is element list of dropdown.</li>
+					<li>make sure the parent element does not use the overflow: hidden, so use the alternative display: inline-block, without using float.</li>
+				</ul>
+			</div>
+			<div class="footer-jkt">
+				<a href="http://jawajava.github.io/Jakarta-Cute-Dropdown/">Jakarta Cute Dropdown</a> is licensed under the <a href="https://github.com/JawaJava/Jakarta-Cute-Dropdown/blob/master/LICENSE">MIT license</a>. This project is maintained by <a href="https://github.com/JawaJava">JawaJava</a>
+			</div>
+		</div>
+		</div>
+	</div>
+	</body>
+</html>
