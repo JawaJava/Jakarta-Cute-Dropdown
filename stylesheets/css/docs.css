@@ -7,7 +7,7 @@
 			margin:0 auto;
 		}
 		.own-tt{
-			width:90%;
+			width:98%;
 		}
 		.own-tt tr:nth-child(even){
 			background-color:#f9f9f9;
@@ -71,8 +71,8 @@
 		}
 		.code-jkt{
 			margin-left:10px;
-			width:500px;
-			width:33rem;
+			width:300px;
+			width:21rem;
 		}
 		.code-jkt .c-jkt{
 			clear:both;
