@@ -7,7 +7,7 @@
 			margin:0 auto;
 		}
 		.own-tt{
-			width:980px;
+			width:90%;
 		}
 		.own-tt tr:nth-child(even){
 			background-color:#f9f9f9;
@@ -19,12 +19,17 @@
 			padding:10px;
 			border:1px solid #CCC;
 			color:#333;
-			font-size:18px;
+			font-size:13px;
 		}
 		.div-part-jkt{
 			clear:both;
 			margin:5px 0;
-			display: inline-block;;
+			
+			display:-moz-inline-stack;
+			display:inline-block;
+			zoom:1;
+			*display:inline;
+
 		}
 		.title-part-jkt{
 			font-size:16px;
@@ -66,8 +71,8 @@
 		}
 		.code-jkt{
 			margin-left:10px;
-			width:628px;
-			width:44rem;
+			width:500px;
+			width:33rem;
 		}
 		.code-jkt .c-jkt{
 			clear:both;
