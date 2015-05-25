@@ -17,6 +17,32 @@ read this [click](http://jawajava.github.io/Jakarta-Cute-Dropdown/)
 
 if need question or bug issue just email to me styleofrudy@gmail.com or pull issue
 
+```
+  <!--[if lt IE 8]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+		<link href="dist/css/jktCuteDropdown_lt_8.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="dist/js/jktCuteDropdown.js"></script>
+	<link href="dist/css/jktCuteDropdown.css" rel="stylesheet" type="text/css" />
+	<link href="dist/css/style_by_you_need.css" rel="stylesheet" type="text/css" />
+```
+
+```
+  <li class="jktCD-one jktCD">
+		<span class="jktCD-click">Standart</span>
+		<div class="jktCD-main jktCD-style-one">
+			<ul>
+				<li class="item"><a href="">My Home</a></li>
+				<li class="item"><a href="">My Menu</a></li>
+				<li class="item"><a href="">My Activity</a></li>
+				<li class="pemisah"></li>
+				<li class="item"><a href="">log Out</a></li>
+			</ul>
+		</div>
+	</li>	
+```
+
 # What is license?
 [MIT license](https://github.com/JawaJava/Jakarta-Cute-Dropdown/blob/master/LICENSE)
 
