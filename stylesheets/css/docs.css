@@ -50,6 +50,8 @@
 			float:left;
 			padding:5px;
 			list-style:none;
+
+			font-size:12px;
 		}
 		.small-title-part{
 			font-size:14px;
@@ -66,13 +68,15 @@
 			padding:0px 20px 20px 20px;	
 		}
 		.example-jkt{
-			width:180px;
+			width:150px;
 			height:100px;
 		}
 		.code-jkt{
 			margin-left:10px;
-			width:300px;
-			width:21rem;
+			width:280px;
+			width:25rem;
+
+			font-size:12px;
 		}
 		.code-jkt .c-jkt{
 			clear:both;
