@@ -15,7 +15,7 @@ Something you need dropdown every where place in yours page like options menu in
 # How to Usage  
 just like other library or read this [click](http://jawajava.github.io/Jakarta-Cute-Dropdown/)
 
-# if need question or bug issue just email to me styleofrudy@gmail.com or pull issue
+if need question or bug issue just email to me styleofrudy@gmail.com or pull issue
 
 # What is license?
 [MIT license](https://github.com/JawaJava/Jakarta-Cute-Dropdown/blob/master/LICENSE)
