@@ -74,8 +74,48 @@
 <a id="support-browser" class="anchor" href="#support-browser" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirement</h3>
 <ul>
 <li>jQuery 1x(for ie < 8) or 2x</li>
-<li>ie8.js for compatible ie 7, 8</li>
+<li><a href="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js">ie8.js</a> or <a href="https://code.google.com/p/ie7-js/">page</a> for compatible ie 7, 8</li>
 </ul>
+
+<h3>
+<a id="support-browser" class="anchor" href="#support-browser" aria-hidden="true"><span class="octicon octicon-link"></span></a>How To Usage ?</h3>
+<ol>
+	<li>download master <a href="https://github.com/JawaJava/Jakarta-Cute-Dropdown/zipball/master">click</a></li>
+	<li>include this file into your page:  
+	<pre>
+	<code>
+		<!--[if lt IE 8]>
+			<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+			<link href="dist/css/jktCuteDropdown_lt_8.css" rel="stylesheet" type="text/css" />
+		<![endif]-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src="dist/js/jktCuteDropdown.js"></script>
+		<link href="dist/css/jktCuteDropdown.css" rel="stylesheet" type="text/css" />
+		<link href="dist/css/style_by_you_need.css" rel="stylesheet" type="text/css" />
+	</code>
+	</pre>
+	</li>
+	<li>Write into script area in yours page like this standart code $('.jktCD-one').jktCD();</li>
+	<li>Call them in html like this :
+	<pre>
+	<code>
+		<li class="jktCD-one jktCD">
+			<span class="jktCD-click">Standart</span>
+			<div class="jktCD-main jktCD-style-one">
+				<ul>
+					<li class="item"><a href="">My Home</a></li>
+					<li class="item"><a href="">My Menu</a></li>
+					<li class="item"><a href="">My Activity</a></li>
+					<li class="pemisah"></li>
+					<li class="item"><a href="">log Out</a></li>
+				</ul>
+			</div>
+		</li>	
+	</code>
+	</pre>
+	</li>
+	<li>and refresh yours page, ejoy..</li>
+</ol>
 
 <h3>
 <a id="example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h3>
